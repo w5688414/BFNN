@@ -10,3 +10,5 @@ this is the pytorch implements of the paper: Beamforming Design for Large-Scale 
 + ubuntu 16.04
 
 
+## 注意
++ pytorch 对复数操作不友好，目前把复数的两部分直接拼接，然后参与后面的计算，不能保证接近性能方面tf的代码
